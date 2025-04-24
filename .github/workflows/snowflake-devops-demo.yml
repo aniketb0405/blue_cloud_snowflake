@@ -39,4 +39,4 @@ jobs:
           pip install schemachange
           
           echo "Step 2: Running schemachange"
-          schemachange -f $GITHUB_WORKSPACE/migration -a VGCOKVY-NV22340 -u ANIKETBHAMRE0405 -r SYSADMIN -w COMPUTE_WH -d mydb -p "Aniketbhamre0405" -c mydb.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
+          schemachange -f $GITHUB_WORKSPACE/migration -a VGCOKVY-NV22340 -u ANIKETBHAMRE0405 -r SYSADMIN -w COMPUTE_WH -d mydb --password "Aniketbhamre0405" -c mydb.SCHEMACHANGE.CHANGE_HISTORY --create-change-history-table
